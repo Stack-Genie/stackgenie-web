@@ -76,7 +76,7 @@ const useCases = [
 ];
 
 export default function StackFlowSection() {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex] = useState(0);
   const uc = useCases[activeIndex];
 
   return (
