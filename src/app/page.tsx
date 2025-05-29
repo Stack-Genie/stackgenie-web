@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Navbar />
       <HeroSection />
-      <div className="-mt-102 z-20 relative">
+      <div className="-mt-42 z-20 relative">
   <StackFlowSection />
 </div>
 
