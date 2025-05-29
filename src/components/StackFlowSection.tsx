@@ -106,7 +106,7 @@ export default function StackFlowSection() {
             <div className="bg-gradient-to-b from-[#1b1b1b] to-[#101010] rounded-xl p-6 md:p-10 flex flex-col gap-6 items-center w-full max-w-2xl border border-white/10 relative shadow-2xl">
 
               {/* Toggle Switch (moved here) */}
-              <div className="relative flex justify-center mb-6">
+              {/* <div className="relative flex justify-center mb-6">
                 <div className="relative flex bg-white/10 rounded-full p-1 w-full max-w-xs overflow-hidden">
                   {useCases.map((useCase, i) => (
                     <button
@@ -126,7 +126,7 @@ export default function StackFlowSection() {
                     transition={{ type: 'spring', stiffness: 300, damping: 30 }}
                   />
                 </div>
-              </div>
+              </div> */}
 
               <div className="text-sm text-center bg-white/5 border border-white/10 rounded-full px-4 py-2 text-orange-300 font-medium">
                 ✨ Smart AI Stack Recommendation
@@ -134,14 +134,40 @@ export default function StackFlowSection() {
 
               <div className="grid grid-cols-2 gap-4 text-sm w-full">
                 <div className="bg-black/40 p-4 rounded-lg border border-white/10">
-                  <h4 className="text-purple-300 font-medium">🔍 Stack Analyzer</h4>
+                  <h4 className="text-white-900 font-bold">🔍 Stack Analyzer</h4>
                   <p>Matches tools to your use case</p>
                 </div>
                 <div className="bg-black/40 p-4 rounded-lg border border-white/10">
-                  <h4 className="text-blue-300 font-medium">⚙️ AI Workflow</h4>
+                  <h4 className="text-blue-300 font-medium text-lg">⚙️ AI Workflow</h4>
                   <p>Auto-connects tool APIs</p>
                 </div>
-              </div>
+                <div className="bg-black/40 p-4 rounded-lg border border-white/10">
+                  <h4 className="text-green-300 font-medium">🔗 Connect AI Tools Visually</h4>
+                  <p>Visualize your workflow like a mind map.</p>
+                </div>
+                <div className="bg-black/40 p-4 rounded-lg border border-white/10">
+                  <h4 className="text-red-300 font-medium">📦 Pre-built Stacks</h4>
+                  <p>Marketing, development, design, productivity, and more.</p>
+                </div>
+                <div className="bg-black/40 p-4 rounded-lg border border-white/10">
+                  <h4 className="text-purple-300 font-medium">💰 Smart Pricing Insights</h4>
+                  <p>AI tools based on usage, cost, and free-tier access before adding to your stack</p>
+                </div>
+                <div className="bg-black/40 p-4 rounded-lg border border-white/10">
+                  <h4 className="text-pink-300 font-medium">📈 ROI Estimation</h4>
+                  <p>Insights into time saved, conversion gains, and estimated ROI for each stack suggestion.</p>
+                </div>
+                <div className="bg-black/40 p-4 rounded-lg border border-white/10">
+                  <h4 className="text-cyan-300 font-medium">🔒 One-click Deploy</h4>
+                  <p>Stack instantly with API keys and pre-configured automation flows.</p>
+                </div>
+                <div className="bg-black/40 p-4 rounded-lg border border-white/10">
+                  <h4 className="text-orange-300 font-medium">📊 Analytics Dashboard</h4>
+                  <p>Track performance, usage stats, and team activity.</p>
+                </div>
+            </div>
+           
+          
             </div>
 
             {/* Output Tools */}
