@@ -12,7 +12,8 @@ const tools = [
 ];
 
 export default function IntegrationMapSection() {
-  const canvasRef = useRef(null);
+  const canvasRef = useRef<HTMLCanvasElement | null>(null);
+
 
   useEffect(() => {
     const canvas = canvasRef.current;
