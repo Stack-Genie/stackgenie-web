@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth0/nextjs-auth0": "^2.2.0",
     "framer-motion": "^12.15.0",
     "next": "15.3.2",
     "react": "^19.0.0",
@@ -26,5 +27,18 @@
     "eslint-config-next": "15.3.2",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "description": "The frontend interface for StackGenie.ai — a drag-and-drop platform to generate your custom AI stack.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stack-Genie/stackgenie-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stack-Genie/stackgenie-web/issues"
+  },
+  "homepage": "https://github.com/Stack-Genie/stackgenie-web#readme"
 }
