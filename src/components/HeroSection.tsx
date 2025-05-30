@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import AnimatedSvg from './AnimatedSvg';
 
 export default function HeroSection() {
   const scrollToStackSection = () => {
@@ -42,7 +43,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
         >
-          Build Smart AI Stacks<br />with <span className="text-purple-400">StackGenie.ai</span>
+          Build Smart AI Stacks<br />with <span className="text-purple-400">StackAIGenie</span>
         </motion.h1>
 
         <motion.p
@@ -71,11 +72,13 @@ export default function HeroSection() {
           </button>
         </motion.div>
       </div>
+  
 
       {/* Animated Gradient Wave Only */}
       <div className="absolute bottom-0 w-full overflow-hidden z-0">
         <div className="relative w-full h-60 bg-gradient-to-t from-[#3f0087]/60 to-transparent"></div>
       </div>
+      
     </section>
   );
 }

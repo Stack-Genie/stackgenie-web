@@ -11,9 +11,9 @@ export default function AboutSection() {
        <div className="relative flex justify-center">
   <div className="z-10 w-80 h-80 flex items-center justify-center">
     <Image
-      src="/images/genie.png"
+      src="/images/about.png"
       alt="StackGenie Logo"
-      width={480}
+      width={580}
       height={480}
       className="object-contain"
     />
@@ -27,14 +27,11 @@ export default function AboutSection() {
           </h2>
 
           <p className="text-gray-300 text-base leading-relaxed">
-           StackGenie is an intelligent platform designed to help users build the perfect AI tool stack
-            for any workflow or use case. Using advanced recommendations and real-time integrations,
-            StackGenie makes it effortless to choose, compare, and connect AI services tailored to your
-            needs.
+           StackAIGenie is an intelligent platform that helps you build the perfect AI tool stack for any use case—whether it's marketing, development, research, or automation. With a drag-and-drop interface and smart recommendations, StackGenie makes it effortless to visualize, customize, and connect AI tools tailored to your specific workflow.
           </p>
           <p className="text-gray-300 text-base leading-relaxed">
-            Accessing services, our platform enables seamless voice commands, making your interaction with technology more intuitive and hands-free. Designed for both everyday consumers and businesses, our AI adapts to individual preferences, providing customized and efficient voice-driven experiences.
-          </p>
+            Designed for both individuals and teams, our platform simplifies complex decisions by comparing features, pricing, and integrations—helping you go from idea to implementation in minutes.
+  </p>
 
           <button className="mt-4 px-6 py-2 rounded-full bg-white/10 text-white border border-white/20 backdrop-blur-md hover:bg-white/20 transition">
             Try for free
