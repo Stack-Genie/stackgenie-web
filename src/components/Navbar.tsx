@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo */}
         <div className="text-white text-xl font-semibold">
-          StackGenie<span className="text-purple-400">.ai</span>
+          Stack<span className="text-purple-400"> AI </span>Genie
         </div>
 
         {/* Navigation Links */}
@@ -21,15 +21,18 @@ export default function Navbar() {
 
         {/* Buttons */}
         <div className="flex items-center space-x-3">
-         <Link href="/api/auth/login">
-  <button className="px-4 py-1.5 rounded-full text-sm border border-white/30 text-white bg-white/10 hover:bg-white/20 transition">
-    Log In
-  </button>
-</Link>
-          <button className="px-4 py-1.5 rounded-full text-sm bg-white text-black font-semibold hover:bg-gray-200 transition">
-            Sign Up
-          </button>
-        </div>
+  <Link href="/login">
+    <button className="px-4 py-1.5 rounded-full text-sm border border-white/30 text-white bg-white/10 hover:bg-white/20 transition">
+      Log In
+    </button>
+  </Link>
+
+  <Link href="/register">
+    <button className="px-4 py-1.5 rounded-full text-sm bg-white text-black font-semibold hover:bg-gray-200 transition">
+      Sign Up
+    </button>
+  </Link>
+</div>
       </div>
     </header>
   );

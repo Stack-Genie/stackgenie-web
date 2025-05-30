@@ -17,9 +17,9 @@ const partners = [
 export default function TrustedPartnersSection() {
   return (
     <section className="py-20 px-4 sm:px-12  text-white text-center">
-      <h2 className="text-2xl sm:text-3xl font-semibold mb-10">
+      {/* <h2 className="text-2xl sm:text-3xl font-semibold mb-10">
   Powering <span className="text-purple-300">Innovation</span> with <span className="text-gray-400">Trusted APIs</span>
-</h2>
+</h2> */}
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 max-w-6xl mx-auto">
         {partners.map((partner, index) => (
