@@ -1,6 +1,9 @@
+import AboutSection from '@/components/AboutSection';
 import HeroSection from '@/components/HeroSection';
+import IntegrationMapSection from '@/components/MapSection';
 import Navbar from '@/components/Navbar';
 import StackFlowSection from '@/components/StackFlowSection';
+import TrustedPartnersSection from '@/components/TrustedPartners';
 
 export default function Home() {
   return (
@@ -8,8 +11,11 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <div className="-mt-72 z-20 relative">
-  <StackFlowSection />
-</div>
+      <StackFlowSection />
+       <AboutSection />
+       <TrustedPartnersSection />
+       <IntegrationMapSection />
+    </div>
 
     </>
   );
