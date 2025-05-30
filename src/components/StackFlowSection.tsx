@@ -134,35 +134,35 @@ export default function StackFlowSection() {
 
               <div className="grid grid-cols-2 gap-4 text-sm w-full">
                 <div className="bg-black/40 p-4 rounded-lg border border-white/10">
-                  <h4 className="text-white-900 font-bold">🔍 Stack Analyzer</h4>
+                  <h4 className="text-purple-400 font-bold">Stack Analyzer</h4>
                   <p>Matches tools to your use case</p>
                 </div>
                 <div className="bg-black/40 p-4 rounded-lg border border-white/10">
-                  <h4 className="text-blue-300 font-medium text-lg">⚙️ AI Workflow</h4>
+                  <h4 className="text-green-400 font-bold">AI Workflow</h4>
                   <p>Auto-connects tool APIs</p>
                 </div>
                 <div className="bg-black/40 p-4 rounded-lg border border-white/10">
-                  <h4 className="text-green-300 font-medium">🔗 Connect AI Tools Visually</h4>
+                  <h4 className="text-green-300 font-font">Connect AI Tools Visually</h4>
                   <p>Visualize your workflow like a mind map.</p>
                 </div>
                 <div className="bg-black/40 p-4 rounded-lg border border-white/10">
-                  <h4 className="text-red-300 font-medium">📦 Pre-built Stacks</h4>
+                  <h4 className="text-red-300 font-bold">Pre-built Stacks</h4>
                   <p>Marketing, development, design, productivity, and more.</p>
                 </div>
                 <div className="bg-black/40 p-4 rounded-lg border border-white/10">
-                  <h4 className="text-purple-300 font-medium">💰 Smart Pricing Insights</h4>
+                  <h4 className="text-purple-300 font-bold">Smart Pricing Insights</h4>
                   <p>AI tools based on usage, cost, and free-tier access before adding to your stack</p>
                 </div>
                 <div className="bg-black/40 p-4 rounded-lg border border-white/10">
-                  <h4 className="text-pink-300 font-medium">📈 ROI Estimation</h4>
+                  <h4 className="text-pink-300 font-bold">ROI Estimation</h4>
                   <p>Insights into time saved, conversion gains, and estimated ROI for each stack suggestion.</p>
                 </div>
                 <div className="bg-black/40 p-4 rounded-lg border border-white/10">
-                  <h4 className="text-cyan-300 font-medium">🔒 One-click Deploy</h4>
+                  <h4 className="text-cyan-300 font-bold">One-click Deploy</h4>
                   <p>Stack instantly with API keys and pre-configured automation flows.</p>
                 </div>
                 <div className="bg-black/40 p-4 rounded-lg border border-white/10">
-                  <h4 className="text-orange-300 font-medium">📊 Analytics Dashboard</h4>
+                  <h4 className="text-orange-300 font-bold">Analytics Dashboard</h4>
                   <p>Track performance, usage stats, and team activity.</p>
                 </div>
             </div>
