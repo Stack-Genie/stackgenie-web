@@ -7,7 +7,6 @@ export default function AboutSection() {
   return (
     <section className="relative  py-20 px-6 sm:px-16 text-white">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        {/* Left: Logo with radial gradient circles */}
        <div className="relative flex justify-center">
   <div className="z-10 w-80 h-80 flex items-center justify-center">
     <Image
