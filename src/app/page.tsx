@@ -1,7 +1,6 @@
 import Preloader from '@/components/Preloader';
 import AboutSection from '@/components/AboutSection';
 import HeroSection from '@/components/HeroSection';
-import IntegrationMapSection from '@/components/MapSection';
 import Navbar from '@/components/Navbar';
 import StackFlowSection from '@/components/StackFlowSection';
 import TrustedPartnersSection from '@/components/TrustedPartners';
@@ -24,8 +23,6 @@ export default function Home() {
 
         <AboutSection />
 
-
-        {/* <IntegrationMapSection /> */}
       </div>
     </>
   );

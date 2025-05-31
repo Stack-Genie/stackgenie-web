@@ -1,7 +1,6 @@
 'use client';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import AnimatedSvg from './AnimatedSvg';
 
 export default function HeroSection() {
   const scrollToStackSection = () => {

@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
-import icon from '/icons/svgviewer.svg';
 
 
 const useCases = [
