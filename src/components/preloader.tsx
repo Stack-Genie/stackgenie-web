@@ -18,8 +18,8 @@ export default function Preloader() {
     <Image
       src="/images/genie1.webp"
       alt="Loading"
-      width={420}
-      height={420}
+      width={320}
+      height={320}
       className="animate-pulse mix-blend-screen"
     />
     <div className="absolute inset-0"></div>
