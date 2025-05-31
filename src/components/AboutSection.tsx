@@ -25,12 +25,12 @@ export default function AboutSection() {
             About StackGenie
           </h2>
 
-          <p className="text-gray-300 text-base leading-relaxed">
+          {/* <p className="text-gray-300 text-base leading-relaxed">
            StackAIGenie is an intelligent platform that helps you build the perfect AI tool stack for any use case—whether it's marketing, development, research, or automation. With a drag-and-drop interface and smart recommendations, StackGenie makes it effortless to visualize, customize, and connect AI tools tailored to your specific workflow.
           </p>
           <p className="text-gray-300 text-base leading-relaxed">
             Designed for both individuals and teams, our platform simplifies complex decisions by comparing features, pricing, and integrations—helping you go from idea to implementation in minutes.
-  </p>
+  </p> */}
 
           <button className="mt-4 px-6 py-2 rounded-full bg-white/10 text-white border border-white/20 backdrop-blur-md hover:bg-white/20 transition">
             Try for free
